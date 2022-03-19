@@ -54,6 +54,7 @@ header nav ul li a {
   align-items: flex-start;
   flex: 1;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15
 }
 
 .hero h2 {
@@ -98,13 +99,40 @@ header nav ul li a {
   flex-wrap: wrap;
   align-items: center;
 }
+.projects{
+  padding: 0 50px 0 50px;
+  border-left: 3px solid black;
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project img {
+  max-width: 300px;
+  flex: 1 50%;
+  margin: 0 10px 0 10px;
+}
+.project-name{
+  width: 100%;
+  position: absolute;
 
+}
+.project-name h3{
+  color:black;
+  text-align:left;
+  margin-left: 15px;
+  
+}
 .contact-info li {
   display: inline;
   font-size: 25px;
   border-bottom: 3px solid black;
   margin: 75px 25px 75px 25px;
   padding: 10px;
+}
+
+.contact-info li a {
+  text-decoration: none;
 }
 
 footer {
