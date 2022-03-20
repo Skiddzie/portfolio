@@ -195,6 +195,12 @@ footer h2 {
     flex: 1;
   }
 
+  .project img {
+    max-width: 200px;
+    flex: 1 50%;
+    margin: 0 10px 0 10px;
+  }
+
   .info {
     width: 100%;
   }
